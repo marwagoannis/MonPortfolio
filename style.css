@@ -82,3 +82,22 @@ footer a {
     color: #ff0000; /* Le rouge Ferrari */
     text-shadow: 0 0 5px #ff0000; /* Petit effet néon */
 }
+/* Le bouton Ferrari */
+.btn {
+    display: inline-block;
+    background-color: #ff2800;
+    color: #ffffff !important;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b31d00;
+    transform: scale(1.05);
+}
