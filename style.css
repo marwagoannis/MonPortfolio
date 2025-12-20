@@ -112,3 +112,26 @@ footer a:hover {
     background-color: var(--accent-yellow);
     color: white;
 }
+.theme-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--accent-green);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    z-index: 1000;
+}
+
+/* Le style quand le mode sombre est activé */
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #f4f1ea;
+}
+
+body.dark-theme .container {
+    background-color: #252525;
+    border-color: #333;
+}
