@@ -85,3 +85,18 @@ h2 {
     border-bottom: 2px solid var(--accent-yellow);
     display: inline-block;
 }
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill-item {
+    background-color: var(--accent-green);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
